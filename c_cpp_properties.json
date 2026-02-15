@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-arm",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "D:\\RM\\gcc-arm-none-eabi-10.3-2021.10-win32\\Arm-GNU-Toolchian\\bin\\arm-none-eabi-gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-arm",
+      "compilerArgs": [
+        ""
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32F103xB",
+        "_DEBUG",
+        "UNICODE"
+      ]
+    },
+    {
+      "name": "STM32",
+      "includePath": [
+        "Core/Inc",
+        "Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "Drivers/CMSIS/Include",
+        "Drivers/STM32F1xx_HAL_Driver/Inc",
+        "Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "User"
+      ],
+      "defines": [
+        "STM32F103xB",
+        "USE_HAL_DRIVER"
+      ],
+      "compilerPath": "D:\\RM\\gcc-arm-none-eabi-10.3-2021.10-win32\\Arm-GNU-Toolchian\\bin\\arm-none-eabi-gcc.EXE"
+    }
+  ],
+  "version": 4
+}
